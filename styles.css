@@ -20,6 +20,9 @@ h2 {
 
 p {
   margin: 5px 100px 5px 5px;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 110%;
 }
 
 #tartalom {
@@ -29,7 +32,10 @@ p {
   background-position: right top;
   background-color: rgba(222, 222, 222);
   margin-bottom: 20px;
-  padding: 40px;
+  padding: 40px;ű
+  margin-top: 40px;
+  width: 870px;
+  margin: auto;
 }
 
 li {
@@ -41,6 +47,17 @@ a {
   text-decoration: none;
   color: black;
 }
-#jobbra {
+.jobbra {
   text-align: right;
+  margin-right: 100px;
+}
+.eletrajz {
+  font-size: 80%;
+  background-color: rgba(0, 0, 0, 0.479);
+  color: white;
+  padding: 10px;
+
+}
+a:hover {
+  color: red;
 }
